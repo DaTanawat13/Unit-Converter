@@ -1,4 +1,61 @@
-.title{
-    border: 100cm;
+body {
+    font-family: Arial;
+    background-color: rgb(255, 255, 255);
+}
 
+.background {
+    width: 700px;
+    margin: 50px auto;
+    padding: 30px;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.title {
+    background-color: rgb(0, 191, 255);
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+}
+
+.intructions {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.members {
+    margin-bottom: 30px;
+}
+
+.member-info {
+    margin-bottom: 20px;
+}
+
+.member-name {
+    color: black;
+}
+
+.member-role {
+    margin-top: 20px;
+}
+
+.unitconverter {
+    margin-top: 40px;
+}
+
+input {
+    padding: 7px;
+}
+
+select {
+    padding: 7px;
+}
+
+button {
+    padding: 7px 12px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+#Result {
+    font-weight: bold;
 }
