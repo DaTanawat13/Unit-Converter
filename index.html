@@ -4,20 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Unit Converter</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">  
+    <!-- use all the style from style.css -->
 
 </head>
 <body>
     <main class = "background">
 
         <section class="title">
-            <header> Unit Converter</header>
+            <header> Unit Converter</header>  
         </section>
 
-        <section class = "intructions">
-            Hello, welcome to the unit converter ---
+        <section class = "intructions">   <!-- this is the section for instructions, very important i guess for the user -->
+            Hello, welcome to the unit converter. This is a simple tool that allows you to convert between different units of measurement. You can enter a value, select the units you want to convert from and to, and click the "Convert" button to see the result. (there is a special unit)
         </section>
-        <section class=" members">
+        <section class=" members">   <!-- this is the section for our team members, now they help me with the code im so glad they have some team work.-->
             <h3>Created by</h3>
             <div class = "member-info">
 
@@ -34,12 +35,12 @@
                 <a class = "member-name" href="https://www.instagram.com/mashxl_m/" target="_blank">Kritanont Ployngam</a>
                 <p class = "member-role">M.3/1 · Tester/CSS Architect &amp; Documentation Lead</p>
             </div>
-            <div class = unitconverter>
-                <input type="number" id="inputValue" placeholder="Enter value">
+            <div class = "unitconverter">                           <!-- this creates the unit converter section -->
+                <input type="number" id="inputValue" placeholder="Enter value"> <!-- this is wear you put the numbers or values you want to convert -->
 
                 from
 
-                <select id="fromUnit">
+                <select id="fromUnit"> <!-- the option where you can choose the unit to convert from -->
                     <option value="centimeters">Centimeters</option>
                     <option value="meters">Meters</option>
                     <option value="kilometers">kilometers</option>
@@ -49,7 +50,7 @@
 
                 to
 
-                <select id="toUnit">
+                <select id="toUnit"> <!-- the option where you can choose the unit to convert to. let go ._. -->
                     <option value="centimeters">Centimeters</option>
                     <option value="meters">Meters</option>
                     <option value="kilometers">kilometers</option>
@@ -57,11 +58,11 @@
                     <option value="veno">veno</option>
                 </select>
 
-                <button id="convert" type="button">Convert!!!</button>
+                <button id="convert" type="button">Convert!!!</button>  <!-- this is the button that you click to convert the units , click click -->
                 <p>Result: <span id="Result">0</span></p>
 
 
-                <section class ="reset-veno">
+                <section class ="reset-veno">  <!-- this is the section for the reset button-->
                     <button id="reset">Reset</button>
                 </section>
 
